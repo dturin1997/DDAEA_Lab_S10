@@ -9,7 +9,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            //AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(DDAEA_Lab_S11.Models.DemoContext context)
