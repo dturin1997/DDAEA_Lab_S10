@@ -9,7 +9,7 @@ namespace DDAEA_Lab_S11.Models
     {
         public int InvoiceID { get; set; }
         public DateTime Date { get; set; }
-        List<Detail> Details { get; set; }
+        public List<Detail> Details { get; set; }
         public int CustomerID { get; set; }
         public Customer Customer { get; set; }
 

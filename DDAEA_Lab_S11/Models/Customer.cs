@@ -10,6 +10,6 @@ namespace DDAEA_Lab_S11.Models
         public int CustomerID { get; set; }
         public string CustomerFirstName { get; set; }
         public string CustomerLastName { get; set; }
-        List<Invoice> Invoices { get; set; }
+        public List<Invoice> Invoices { get; set; }
     }
 }
